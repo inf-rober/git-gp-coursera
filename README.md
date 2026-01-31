@@ -5,8 +5,9 @@ Codebase for Guided Project "Git for developers: managing workflows and conflict
 ## Basic project setup
 
 - Install virtual enviroment with its dependencies: `poetry install`
-- Activate it: `poetry shell`
-- To run the API, use the command: `uvicorn src.app:app --reload`
+- Activate it: `poetry env activate`
+- Deactivate it: `poetry env deactivate`
+- To run the API, use the command: `poetry run uvicorn src.app:app --reload`
 
 ## Ready-to-use code
 
